@@ -1,23 +1,24 @@
-h1{
-  text-align: center;
+nav{
+  display:grid;
+  grid-template-columns: 10% 90%;
+  grid-template-rows:1;
+  grid-template-areas: "logo links";
+  min-height:6vh;
+  background:rgb(53, 82, 92);
+  color:white;
 }
-
-.app{
-  min-height: 100vh;
-  background: rgb(95,167,190);
-  display:flex;
-  justify-content: space-around;
-  align-items: center;
+.logo{
+  grid-area:logo;
+  padding-top:10%;
+  padding-left:20%;
 }
-.tweet {
-  background:white;
-  border-radius:9px;
-  padding:10px;
-  height:300px;
-  width:300px;
+.navLinks{
+  grid-area:links;
   display:flex;
-  flex-direction: column;
-  justify-content: center;
-  justify-content: space-between;
-  align-items: center;
+  list-style: none;
+  justify-content: flex-end;
+  width:100%;
+}
+.menuItem{
+  margin:10px;
 }
