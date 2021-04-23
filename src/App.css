@@ -12,6 +12,10 @@ nav{
   padding-top:10%;
   padding-left:20%;
 }
+a.logoLink{
+  text-decoration: none;
+  color:white;
+}
 .navLinks{
   grid-area:links;
   display:flex;
@@ -21,4 +25,20 @@ nav{
 }
 .menuItem{
   margin:10px;
+}
+
+h1.pageTitle{
+  text-align: center;
+  margin-top:1rem;
+}
+div.itemDiv{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+img.itemImage{
+  max-width:300px;
+  height:auto;
+  margin:0 auto;
+  margin-top:2rem;
 }
